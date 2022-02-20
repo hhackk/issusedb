@@ -1,15 +1,12 @@
 name: issusedb
-
 on:
   issue_comment:
     types:
       - created
       - edited
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: echo issuse
         run: |
