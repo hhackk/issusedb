@@ -1,5 +1,6 @@
 name: issusedb
 on:
+  push:
   issue_comment:
     types:
       - created
